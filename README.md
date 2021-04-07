@@ -1,8 +1,5 @@
-# DDNS
-aliyun ddns
-
 # [DDNS](https://github.com/AbelLee-LiYe/ddns)
-
+aliyun ddns
 
 ## Feature
 
