@@ -1,6 +1,8 @@
 # [DDNS](https://github.com/AbelLee-LiYe/ddns)
 aliyun ddns
 
+基于openjdk11开发
+
 ## Feature
 * [x] 多主域名解析
 * [x] 多主机记录解析
