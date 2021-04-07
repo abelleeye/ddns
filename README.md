@@ -32,7 +32,7 @@ accessKeyId 和 secret 获取方式： 阿里云 -> 控制台 -> 右上角头像
       "rrKeyWords": [
         {
           "rrKeyWord": "pre", // 主机记录 pre.example.com
-          "type": "A"
+          "type": "A" // 解析记录类型
         },
         {
           "rrKeyWord": "example",
