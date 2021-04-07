@@ -20,9 +20,11 @@ aliyun ddns
 
 accessKeyId 和 secret 获取方式： 阿里云 -> 控制台 -> 右上角头像 -> AccessKey 管理
 
+[可用区域](https://help.aliyun.com/document_detail/40654.html)
+
 ```json5
 {
-  "regionId": "cn-hangzhou",  //可用区域
+  "regionId": "cn-hangzhou",  // 可用区域 
   "accessKeyId": "accessKeyId", 
   "secret": "secret",  
   "interval": 10000, // 毫秒
