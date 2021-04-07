@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  ddns:
+    image: abelly/ddns:alpine
+    container_name: ddns
+    restart: always
+    volumes:
+      - ./config.json:/config.json

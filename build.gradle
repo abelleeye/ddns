@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'cn.rockst.ddns.DDNS'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+group 'cn.rockst'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.8'
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+    compile 'ch.qos.logback:logback-core:1.2.3'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'ch.qos.logback:logback-access:1.2.3'
+    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'org.apache.httpcomponents:httpclient:4.5.13'
+    compile 'com.aliyun:aliyun-java-sdk-alidns:2.0.10'
+    compile 'com.aliyun:aliyun-java-sdk-core:4.4.3'
+}

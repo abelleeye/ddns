@@ -1,0 +1,21 @@
+{
+  "regionId": "cn-hangzhou",
+  "accessKeyId": "accessKeyId",
+  "secret": "secret",
+  "interval": 10000,
+  "domains": [
+    {
+      "domain": "example.cn",
+      "rrKeyWords": [
+        {
+          "rrKeyWord": "pre1",
+          "type": "A"
+        },
+        {
+          "rrKeyWord": "pre2",
+          "type": "A"
+        }
+      ]
+    }
+  ]
+}
