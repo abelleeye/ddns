@@ -15,6 +15,17 @@ aliyun ddns
 
 ## 安装
 
+部署目录结构:
+```
+- ddns 部署目录
+-- config.json
+-- docker-compose.yml 
+```
+
+1. 下载config.json, `wget https://raw.githubusercontent.com/AbelLee-LiYe/ddns/main/config.json`
+2. 下载docker-compose.yml, `wget https://raw.githubusercontent.com/AbelLee-LiYe/ddns/main/docker-compose.yml`
+3. 修改config.json配置文件
+3. 执行 `docker-compose up -d`
 
 ## 配置
 
