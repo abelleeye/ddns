@@ -1,4 +1,4 @@
-# [DDNS](https://github.com/AbelLee-LiYe/ddns)
+# [DDNS](https://github.com/abelleeye/ddns)
 aliyun ddns
 
 基于openjdk11开发
