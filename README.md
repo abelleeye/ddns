@@ -22,8 +22,8 @@ aliyun ddns
 -- docker-compose.yml 
 ```
 
-1. 下载config.json, `wget https://raw.githubusercontent.com/AbelLee-LiYe/ddns/main/config.json`
-2. 下载docker-compose.yml, `wget https://raw.githubusercontent.com/AbelLee-LiYe/ddns/main/docker-compose.yml`
+1. 下载config.json, `wget https://raw.githubusercontent.com/abelleeye/ddns/main/config.json`
+2. 下载docker-compose.yml, `wget https://raw.githubusercontent.com/abelleeye/ddns/main/docker-compose.yml`
 3. 修改config.json配置文件
 3. 执行 `docker-compose up -d`
 
